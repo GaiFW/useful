@@ -20,7 +20,7 @@ int Sum(int n,int a[])
 }
 int main()
 {
-	int a[7]={1,2,3,4,5,6,7};
+	int a[7]={-2,5,-1,6,-4,-8,6};
 
 	printf("最大和是%d\n",Sum(n,a));
 	return 0;
