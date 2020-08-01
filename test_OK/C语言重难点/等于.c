@@ -6,9 +6,14 @@ int main()
 	int n=0;
 	int a=0;
 
+
 	a+=a-=(m=4)*(n=3);
 
-	printf("%d",a);
+if(n=10)
+{
+	printf("%d ",a);
+	printf("%d ",n);
+}
 
 	return 0;
 }
