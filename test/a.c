@@ -1,9 +1,11 @@
 #include <stdio.h>
-
 int main()
 {
-	int a=10;
-	printf("%d\n",*a);
+    const int a=20;
+    int *p=&a;
+    *p=30;
+    printf("%d",*p);
+    return 0;
 
-	return 0;
 }
+
